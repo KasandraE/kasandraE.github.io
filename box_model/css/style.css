@@ -1,0 +1,24 @@
+#main {
+    background-color: peachpuff;
+    padding: 30px;  
+}
+
+#content {
+    background-color: orange;
+    border: 5px dotted rgb(237, 123, 144);
+    color: white;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+#content > div {
+    margin: 16px 0px
+}
+
+#quote {
+    padding-left: 36px;
+}
+
+#quote-citation {
+    padding-left: 26px;
+}
