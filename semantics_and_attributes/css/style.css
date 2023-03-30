@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 36px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: blue;
+}
+
+nav a {
+    color: blue; 
+    
+}
+
+.card img {
+    width: 300px;
+   
+
+}
+
+footer {
+    background-color: aquamarine 
+   
+}
+
+.card {
+    margin: 24px;
+    border: 1px solid blue;
+    padding: 16px;
+}
+
+#image_container {
+    float: left;
+    padding-right: 24px;
+}
+
+#clear {
+    clear:both
+}
+
+p {
+    padding: 24px;
+   
+}
+h4 {
+    margin: 24px;
+    border: 1px solid blue 
+    padding: 14px;
+}
