@@ -1,0 +1,16 @@
+.wiki_fairy {
+    width: 250px;
+    border: 1px solid lightgrey;
+}
+
+.wiki_fairy img {
+    width: 100%;
+}
+
+.right {
+    float: right;
+}
+
+.flexbox {
+    display: flex;
+}
