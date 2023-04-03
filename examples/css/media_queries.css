@@ -1,0 +1,37 @@
+div {
+    padding: 100px;
+    font-size: 36px;
+    text-align: center;
+}
+#desktop {
+    background-color: lightpink;
+}
+#tablet {
+    background-color: lightblue;
+}
+#mobile {
+    background-color: lightgreen;
+}
+/*Desktop breakpoint */
+@media screen and (min-width: 1000px) {
+    #tablet,
+    #mobile {
+        display: none;
+    }
+}
+/* Tablet breakpoint */
+@media screen and (max-width: 1000px)
+    and (min-width: 768px) {
+     #desktop,
+     #mobile {
+            display:none;
+        }
+    }
+
+/* Mobile breakpoint */
+@media screem and (max-width: 767px) {
+#desktop,
+#tablet {
+        display: none;
+    }
+}

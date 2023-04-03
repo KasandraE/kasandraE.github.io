@@ -24,3 +24,9 @@ li a {
 #home {
     margin-right: auto;
 }
+
+@media screen and (max-width: 768px) {
+    ul {
+        flex-directtion: column;
+    }
+}
