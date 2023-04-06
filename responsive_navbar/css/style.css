@@ -54,5 +54,43 @@ li {
 li style {
     font-size: 8px;
 }
-
+.new_bakery_display {
+        width: 250px;
+        border: 1px solid lightgrey;
+    }
+    .new_bakery_display img {
+        width:100%;
+    }
+    .left {
+        float: left;
+    }
+    .phone_display {
+        width: 250px;
+        border: 1px solid lightgrey;
+    }
+    .phone_display img {
+        width: 100%;
+    }
+    .pastry_display {
+        width: 250px;
+        border: 1px solid lightgrey;
+    }
+    .pastry_display img {
+        width: 100%;
+    }
+    .drinks_display {
+        width: 250px;
+        border: 1px solid lightgrey;
+    }
+    .drinks_display img {
+        width: 100%;
+    }
+    .right {
+        float: right;
+    }
+@media screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+    }
+}
     
