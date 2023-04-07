@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+}
+
+tr {
+    border-bottom: 1px solid blue;
+}
+
+thead tr {
+    background-color: darkcyan;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+    color: darkcyan;
+}
