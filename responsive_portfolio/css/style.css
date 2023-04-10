@@ -175,7 +175,7 @@ footer ul {
   Media Query - Mobile Breakpoint
 ****************************************************************************/
 @media screen and (max-width: 800px) {
-    #site-grid {
+    #site_grid {
         grid-template-columns: 1fr;
         grid-template-areas:
             "nav_area"
