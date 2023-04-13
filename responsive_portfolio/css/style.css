@@ -337,5 +337,9 @@ footer ul {
         columns: 2 auto;
     }
 
+#carousel_slide {
+    width: 100%;
+    align-content: auto;
+}
 
 }
