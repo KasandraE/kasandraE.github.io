@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid_container">
+            <header>
+                <h1>Contact Us</h1>
+                <h5>
+                    Got a question? We'd love 
+                    to hear from you. Send us
+                    a message and we'll reply 
+                    as soon as possible.
+                </h5>
+            </header>
+            <main>
+                <form>
+                    
+                <div class="text_input">
+                <label>First Name:</label>
+                <input type="text" id="first_name_id" name="first_name">
+            </div>
+            <br>
+            <div class="text_input">
+                <label for="middle_initial_id"> Middle Initial:</label>
+                <input type="text" id="middle_initial_id" name="middle_initial">
+            </div>
+            <br>
+            <div class="text_input">
+                <label for="last_name_id"> Last Name:</label>
+                <input type="text" id="last_name_id" name="last_name">
+            </div>
+            <div>
+                <br>
+                <label for="date_id">Date</label>
+                <input type="datetime-local" id="date_id" name="birthday">
+            </div>
+            <br>
+            <div class="text_input">
+                <label for="code_feelings_id">State your issue here:</label>
+                <textarea id="code_feelings_id" name="code_feelings"></textarea>
+            </div>
+            <p>What product are you using?</p>
+                <div>
+                    <input type="checkbox" id="bike_checkbox" name="product_1" value="camera">
+                    <label for="camera_checkbox">Camera</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="bus_checkbox" name="product_2" value="desktop">
+                    <label for="desktop_checkbox">Desktop</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="car_checkbox" name="product_3" value="laptop">
+                    <label for="laptop_checkbox">Laptop</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="bed_checkbox" name="product_4" value="television">
+                    <label for="television_checkbox">Television</label>
+                </div>
+                <br>
+                <div>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                 </div>
+                </form>
+            </main>
+        </section>
+    </body>
+</html>

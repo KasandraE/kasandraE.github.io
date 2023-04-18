@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Example</title>
+    <link href="css/forms.css" rel="stylesheet">
 </head>
 <body>
     <h1>Let's look at some forms!</h1>
@@ -17,10 +18,11 @@
             <p>What is your name?</p>
 
             <div>
+                <div class="text_input">
                 <label>First Name:</label>
                 <input type="text" id="first_name_id" name="first_name">
             </div>
-            <div>
+            <div class="text_input">
                 <label for="last_name_id"> Last Name:</label>
                 <input type="text" id="last_name_id" name="last_name">
             </div>
@@ -28,14 +30,12 @@
             <h2>Textarea Input</h2>
             <h4> Each textarea should also have a unique 'name' attribute</h4>
 
-            <div>
+            <div class="text_input">
                 <label for="code_feelings_id">How do you feel about programming></label>
                 <textarea id="code_feelings_id" name="code_feelings"></textarea>
                 <textarea 
                 id="code_feelings_id"
                 name="code+feelings"
-                rows="5"
-                cols="40"
                 placeholder="this is the default text for text area"></textarea>
             </div>
              </fieldset>
