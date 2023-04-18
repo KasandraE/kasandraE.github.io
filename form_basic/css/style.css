@@ -1,0 +1,10 @@
+body form {
+    background-color: pink;
+    color: darkred;
+    font-family: cursive;
+}
+
+body input {
+    background-color: beige;
+    border: solid maroon;
+}
