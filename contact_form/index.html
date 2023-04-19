@@ -19,21 +19,29 @@
                 </h5>
             </header>
             <main>
-                <form>
-                    
+             <form method="POST" action="https://getform.io/f/d4039806-e299-4117-8631-9aad9f785f4a">
                 <div class="text_input">
                 <label>First Name:</label>
-                <input type="text" id="first_name_id" name="first_name">
+                <input 
+                    required
+                    minlength="5"
+                    maxlength="10">
             </div>
             <br>
             <div class="text_input">
                 <label for="middle_initial_id"> Middle Initial:</label>
-                <input type="text" id="middle_initial_id" name="middle_initial">
+                <input 
+                    required
+                    minlength="1"
+                    maxlength="10">
             </div>
             <br>
             <div class="text_input">
                 <label for="last_name_id"> Last Name:</label>
-                <input type="text" id="last_name_id" name="last_name">
+                <input 
+                required
+                minlength="5"
+                maxlength="10">
             </div>
             <div>
                 <br>
@@ -67,6 +75,7 @@
                     <input type="reset" value="Reset">
                     <input type="submit" value="Submit">
                  </div>
+                </form>
                 </form>
             </main>
         </section>

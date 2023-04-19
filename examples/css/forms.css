@@ -15,6 +15,15 @@
     border-bottom: 4px solid blue;
     background-color: lightblue;
 }
+#first_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+#first_name_id:valid {
+    background-color: lightgreen;
+    border-bottom: 4px solid green;
+}
 
 #first_name_id:focus-visible {
     outline: 0;

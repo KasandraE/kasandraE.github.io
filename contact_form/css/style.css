@@ -20,3 +20,12 @@ form {
     border: 2px solid #CCCCCC;
     padding: 36px;
 }
+#first_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+#first_name_id:valid {
+    background-color: lightgreen;
+    border-bottom: 4px solid green;
+}

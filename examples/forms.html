@@ -19,8 +19,14 @@
 
             <div>
                 <div class="text_input">
-                <label>First Name:</label>
-                <input type="text" id="first_name_id" name="first_name">
+                <label for="first_name_id">First Name:</label>
+                <input 
+                    required
+                    minlength="5"
+                    maxlength="10"
+                    type="text"
+                    id="first_name_id"
+                    name="first_name">
             </div>
             <div class="text_input">
                 <label for="last_name_id"> Last Name:</label>
