@@ -27,16 +27,14 @@ form {
     padding: 12px;
 }
 
-#birthday_input input,
- #gender_input input {
+#birthday_input input {
     width: 33%;
     margin: 12px;
     padding: 12px;
 }
 
 #password_input,
-#birthday_input,
-#gender_input {
+#birthday_input {
     display: flex;
 }
 
@@ -52,9 +50,69 @@ form {
 
 #sign_up input {
     flex: 1;
+    border: none;
     margin: 12px;
     padding: 12px;
-    background-color: rgb(31, 211, 88);
+    background-color: rgb(23, 170, 70);
+    color: white;
     width: 33%;
     flex-direction: center;
+}
+
+#gender_input {
+   display: flex;
+}
+
+#male_input,
+#female_input,
+#custom_input {
+    flex: 1;
+    border: 2px solid lightgrey;
+    margin: 12px;
+    padding: 12px;
+}
+
+#birthday_input {
+    display: flex;
+}
+#month_name_id,
+#day_number_id,
+#year_number_id {
+    flex: 1;
+    border: 2px solid lightgrey;
+    margin: 12px;
+    padding: 12px;
+}
+
+#first_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+#first_name_id:valid {
+    background-color: lightgreen;
+    border-bottom: 4px solid green;
+}
+#last_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+#last_name_id:valid {
+    background-color: lightgreen;
+    border-bottom: 4px solid green;
+}
+
+#new_password_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+#new_password_id:valid {
+    background-color: lightgreen;
+    border-bottom: 4px solid green;
+}
+
+#account {
+    color: rgb(17, 135, 239);
 }
