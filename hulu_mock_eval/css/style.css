@@ -1,0 +1,25 @@
+#hero_image {
+    background-image: url("https://www.astound.com/wp-content/uploads/2022/11/hulu-hero-banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.container {
+    position: relative;
+    text-align: right;
+    color: white;
+}
+
+.top_right {
+    position: absolute;
+    top: 8px;
+    right: 4px;
+}
