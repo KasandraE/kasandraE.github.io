@@ -1,0 +1,239 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #040405;
+}
+
+#hero {
+    background-image: url("../images/backgroundLarge.jpg");
+    background-size: cover;
+}
+
+nav {
+    padding: 24px 36px;
+    background: linear-gradient(to bottom, #020000dd, #00000000);
+}
+
+#cards_section footer {
+    color:white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img {
+    width: 60px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+  background-color: linear-gradient(to bottom, #020000dd, #00000000);
+}
+
+#hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero_content p {
+    color: white;
+}
+
+#single_input {
+    width: 600px;
+    background-color: rgba(38, 38, 38, 0.849);
+    color: rgba(255, 255, 255, 0.157);
+}
+
+.button_link {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 16px;
+    border-radius: 2px;
+    width: 200px;
+    text-align: left;
+    transition: opacity 0.5s;
+    margin: auto;
+}
+
+.button_link:hover {
+    opacity: 0.5;
+}
+#disney_bundles {
+   background-size: 40%;
+}
+
+#cards_section h4 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+   
+}
+#disney_image {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+#cards_section p {
+    color: white;
+}
+
+#footer_section {
+    color: white;
+    text-align: center;
+}
+
+#cards_container div {
+    padding-left: 24px;
+}
+
+#cards_container_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+#cards_container_gallery img {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #040405;
+    }
+    
+    #hero {
+        background-image: url("../images/backgroundLarge.jpg");
+        background-size: cover;
+    }
+    
+    nav {
+        padding: 24px 36px;
+        background: linear-gradient(to bottom, #020000dd, #00000000);
+    }
+    
+    #cards_section footer {
+        color:white;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    nav img {
+        width: 60px;
+    }
+    
+    nav a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    nav a:hover {
+      background-color: linear-gradient(to bottom, #020000dd, #00000000);
+    }
+    
+    #hero_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #hero_content p {
+        color: white;
+    }
+    
+    #single_input {
+        width: 600px;
+        background-color: rgba(38, 38, 38, 0.849);
+        color: rgba(255, 255, 255, 0.157);
+    }
+    
+    .button_link {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        background-color: blue;
+        color: white;
+        font-weight: bolder;
+        font-size: 10px;
+        padding: 16px;
+        border-radius: 2px;
+        width: 200px;
+        text-align: left;
+        transition: opacity 0.5s;
+        margin: auto;
+    }
+    
+    .button_link:hover {
+        opacity: 0.5;
+    }
+    #disney_bundles {
+       background-size: 40%;
+    }
+    
+    #cards_section h4 {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+       
+    }
+    #disney_image {
+      height: 100px;
+      width: 100px;
+      margin: auto;
+      display: block;
+    }
+    #cards_section p {
+        color: white;
+    }
+    
+    #footer_section {
+        color: white;
+        text-align: center;
+    }
+    
+    #cards_container div {
+        padding-left: 24px;
+    }
+    
+    #cards_container_gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    #cards_container_gallery img {
+        object-fit: cover;
+        width: 100%;
+    }
+}
